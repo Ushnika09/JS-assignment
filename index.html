@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Student Registration System">
+    <meta name="author" content="Ushnika Kar">
+    <title>Student Registration System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#register">Register</a></li>
+                <li><a href="#records">Records</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+
+    <main>
+        <section class="hero">
+            <div class="slider">
+                <div class="slide">
+                    <h1>Student Registration System</h1>
+                    <p>Easily register, edit, and manage student details in one place.</p>
+                </div>
+                <div class="slide">
+                    <h2>Effortless Student Registration</h2>
+                    <p>Streamline the student registration process with ease.</p>
+                </div>
+                <div class="slide">
+                    <h2>Manage Records Efficiently</h2>
+                    <p>Access and update student records in just a few clicks.</p>
+                </div>
+                <div class="slide">
+                    <h2>Secure and Reliable</h2>
+                    <p>Ensure data security and reliability for all student information.</p>
+                </div>
+            </div>
+        </section>
+    
+        <section id="register">
+            <h2>Register a Student</h2>
+            <div class="container">
+                <form action="#">
+                    <label for="name">Student Name:</label>
+                    <input type="text" id="name" name="name" required><br><br>
+    
+                    <label for="s_id">Student ID:</label>
+                    <input type="text" id="s_id" name="s_id" required><br><br>
+    
+                    <label for="email">Email ID:</label>
+                    <input type="email" id="email" name="email" required><br><br>
+    
+                    <label for="phone">Phone No.:</label>
+                    <input type="tel" id="phone" name="phone" required><br><br>
+    
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </section>
+
+        <section class="records">
+            <h2>Student Records</h2>
+            <br>
+            <div class="container1">
+                <table id="records">
+                    <tr>
+                        <th>Student Name</th>
+                        <th>Student ID</th>
+                        <th>Email ID</th>
+                        <th>Phone No.</th>
+                        <th>Actions</th>
+                    </tr>
+                </table>
+                
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Student Registration System. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
